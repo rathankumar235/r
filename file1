@@ -1,0 +1,6 @@
+public class Ratan{
+
+public static void main(String[] args){
+System.out.println("Ratan");
+}
+}
