@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Compile Java code
+javac MyJavaProgram.java
+
+# Check if compilation was successful
+if [ $? -eq 0 ]; then
+    echo "Java code compiled successfully."
+
+    # Run the Java program
+    java MyJavaProgram
+else
+    echo "Compilation failed. Please check your Java code."
+fi
